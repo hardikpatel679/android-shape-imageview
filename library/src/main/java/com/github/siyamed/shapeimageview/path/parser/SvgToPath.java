@@ -68,7 +68,10 @@ public class SvgToPath {
 
             return svgHandler.pathInfo;
         } catch (Exception e) {
+           if (BuildConfig.DEBUG) {
             Log.w(TAG, "Parse error: " + e);
+        }
+         
             throw new RuntimeException(e);
         }
     }
