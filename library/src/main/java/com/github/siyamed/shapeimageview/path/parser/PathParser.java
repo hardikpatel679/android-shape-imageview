@@ -224,7 +224,10 @@ class PathParser {
                     break;
                 }
                 default:
+                    if (BuildConfig.DEBUG) {
                     Log.w(TAG, "Invalid path command: " + cmd);
+                    }
+         
                     ph.advance();
             }
             if (!wasCurve) {
