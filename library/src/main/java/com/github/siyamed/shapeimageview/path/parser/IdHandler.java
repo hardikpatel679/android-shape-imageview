@@ -8,6 +8,7 @@ import org.xmlpull.v1.XmlPullParserException;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Stack;
+import com.github.siyamed.shapeimageview.BuildConfig;
 
 @SuppressWarnings("StatementWithEmptyBody")
 class IdHandler {
