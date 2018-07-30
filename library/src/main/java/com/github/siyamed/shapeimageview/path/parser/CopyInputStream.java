@@ -6,6 +6,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import com.github.siyamed.shapeimageview.BuildConfig;
 
 class CopyInputStream {
     private static final String TAG = SvgToPath.TAG;
