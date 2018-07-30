@@ -44,7 +44,7 @@ performant/smooth scrolling **image view component framework** to define differe
 
 Gradle dependency:
 ```Groovy
-compile 'com.github.sathishmscict:android-shape-imageview:0.9.3'
+compile 'com.github.siyamed:android-shape-imageview:0.9.+@aar'
 ```
 
 ###Shader Based ImageView's
