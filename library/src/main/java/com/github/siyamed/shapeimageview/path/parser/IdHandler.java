@@ -97,7 +97,9 @@ class IdHandler {
                 if (idRecordingStack.size() > 0){
                     idRecordingStack.lastElement().sb.append(xml);
                 }
+                  if (BuildConfig.DEBUG) {
                 Log.w(TAG, xml);
+                  }
             }
         }
     }
