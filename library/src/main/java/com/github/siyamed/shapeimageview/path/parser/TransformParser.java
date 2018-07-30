@@ -2,7 +2,7 @@ package com.github.siyamed.shapeimageview.path.parser;
 
 import android.graphics.Matrix;
 import android.util.Log;
-
+import com.github.siyamed.shapeimageview.BuildConfig;
 class TransformParser {
     private static final String TAG = SvgToPath.class.getSimpleName();
 
