@@ -328,7 +328,9 @@ public class SvgToPath {
         } else if (!hidden && localName.equals("metadata")) {
             // skip
         } else if (!hidden) {
+           if (BuildConfig.DEBUG) {
             Log.d(TAG, String.format("Unrecognized tag: %s (%s)", localName, showAttributes(atts)));
+           }
         }
     }
 
