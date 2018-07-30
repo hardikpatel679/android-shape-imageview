@@ -92,7 +92,10 @@ class TransformParser {
                 matrix.preTranslate(-cx, -cy);
             }
         } else {
+            if (BuildConfig.DEBUG) {
             Log.w(TAG, "Invalid transform (" + s + ")");
+        }
+            
         }
     }
 }
