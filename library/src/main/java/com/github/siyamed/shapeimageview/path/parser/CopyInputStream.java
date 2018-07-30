@@ -20,7 +20,10 @@ class CopyInputStream {
             copy();
         }
         catch(IOException ex) {
-            Log.w(TAG, "IOException in CopyInputStream " + ex.toString());
+              if (BuildConfig.DEBUG) {
+                            Log.w(TAG, "IOException in CopyInputStream " + ex.toString());
+            } 
+
         }
     }
 
