@@ -3,6 +3,7 @@ package com.github.siyamed.shapeimageview.path.parser;
 import android.graphics.Path;
 import android.graphics.RectF;
 import android.util.Log;
+import com.github.siyamed.shapeimageview.BuildConfig;
 
 class PathParser {
 
