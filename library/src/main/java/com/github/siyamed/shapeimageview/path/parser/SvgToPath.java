@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.HashMap;
 import java.util.LinkedList;
+import com.github.siyamed.shapeimageview.BuildConfig;
 
 //https://github.com/geosolutions-it/mapsforge/tree/master/svg-android
 /*
